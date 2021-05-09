@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <TargetFrameworks>net20;netstandard2.0;</TargetFrameworks>
+    <AssemblyName>Vst.TypeInfer</AssemblyName>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <PackageVersion>1.0.0-alpha1</PackageVersion>
+    <Authors>Vst.h</Authors>
+    <PackageId>Vst.TypeInfer</PackageId>
+    <PackageTags>Type Inference</PackageTags>
+    
+    <PackageLicenseFile></PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/vst-h/TypeInfer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/vst-h/TypeInfer</RepositoryUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <NeutralLanguage></NeutralLanguage>
+    <RootNamespace>Vst.TypeInfer</RootNamespace>
+    <Description>Auxiliary type inference without writing types that are not necessary.</Description>
+    <PackageReleaseNotes></PackageReleaseNotes>
+  </PropertyGroup>
+</Project>
