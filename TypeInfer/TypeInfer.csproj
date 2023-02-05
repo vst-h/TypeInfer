@@ -3,14 +3,14 @@
   <PropertyGroup>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <TargetFrameworks>net20;netstandard2.0;</TargetFrameworks>
+    <TargetFrameworks>net40;netstandard2.0;</TargetFrameworks>
     <AssemblyName>Vst.TypeInfer</AssemblyName>
     <AssemblyVersion>1.0.0</AssemblyVersion>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.0.1</PackageVersion>
     <Authors>Vst.h</Authors>
     <PackageId>Vst.TypeInfer</PackageId>
     <PackageTags>Type Inference</PackageTags>
-    
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile></PackageLicenseFile>
     <PackageProjectUrl>https://github.com/vst-h/TypeInfer</PackageProjectUrl>
     <RepositoryUrl>https://github.com/vst-h/TypeInfer</RepositoryUrl>
@@ -21,4 +21,8 @@
     <Description>Auxiliary type inference without writing types that are not necessary.</Description>
     <PackageReleaseNotes></PackageReleaseNotes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
 </Project>
